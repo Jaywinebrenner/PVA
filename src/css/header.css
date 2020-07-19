@@ -1,0 +1,44 @@
+.headerWrapper {
+ width: 1140px;
+ margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 10px;
+}
+
+.headerText {
+  margin: 0
+}
+
+.headerTextWrapper{
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.searchBarWrapper{
+  display: block;
+  margin : 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.searchBarInput{
+  padding-left: 12px;;
+  margin-top: 20px;
+  width: 230px;
+  border-radius: 30px;
+  height: 30px;
+  outline: none;
+
+}
+
+.searchIcon {
+  /* padding: 10;
+  width: 25px;
+  position: absolute;
+  top: 23px;
+  left: 1010px; */
+}
+

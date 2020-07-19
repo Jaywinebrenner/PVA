@@ -1,0 +1,7 @@
+.homeWrapper {
+  background-color: #b3dba0;
+  height: 1200px;
+  text-align: "center";
+  width: 100%;
+  overflow-y: 'scroll';
+}

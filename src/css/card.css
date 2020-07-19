@@ -1,0 +1,74 @@
+.cardWrapper{
+ width: 950px;
+ background-color:white;
+border: 3px solid black;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+
+/* HEADER */
+
+.cardHeader{
+  margin-bottom: 85px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr .5fr;
+}
+
+.cardHeaderColOne{
+  padding: 10px;
+}
+
+.cardHeaderColTwo{
+}
+
+.cardHeaderColThree{
+  flex: 1;
+  flex-direction: "row";
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+.cardHeaderThumbNail {
+  height: 100px;
+}
+
+/* BODY */
+
+.cardBody{
+  overflow: "hidden";
+  height: 380px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.cardBodyColOne {
+  padding: 0px 10px;
+
+}
+
+.cardBodyColTwo {
+}
+
+.embeddedVideoPlayer {
+  width: 50px;
+  margin-top: 50px;
+  height: 50px;
+}
+
+.reactPlayer{
+margin-left: 20px;
+margin-top: 12px;
+width: 50px;
+
+}
+
+/* FOOTER */
+
+.cardFooter{
+  background-color:purple;
+}
+
+.footerText {
+}
